@@ -3,12 +3,17 @@ package com.udacity.stockhawk.data;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
+import android.widget.Toast;
 
 import com.udacity.stockhawk.R;
 
 import java.util.Arrays;
 import java.util.HashSet;
+import java.util.Map;
 import java.util.Set;
+
+import yahoofinance.Stock;
+import yahoofinance.YahooFinance;
 
 public final class PrefUtils {
 
@@ -53,7 +58,7 @@ public final class PrefUtils {
         editor.apply();
     }
 
-    public static void addStock(Context context, String symbol) {
+    public static void addStock(Context context, final String symbol) {
         editStockPref(context, symbol, true);
     }
 
