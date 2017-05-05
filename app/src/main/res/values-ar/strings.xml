@@ -10,4 +10,6 @@
     <string name="fab_content_desc">رمز</string>
     <string name="toast_no_connectivity">سيتم تحديث عندما الشبكة المتاحة.</string>
     <string name="toast_stock_added_no_connectivity">تمت إضافة الرمز٪ s. سيتمتحديث عندما الشبكة المتاحة.</string>
+    <string name="abs_change">التغيير المطلق</string>
+    <string name="current_price">السعر الحالي</string>
 </resources>

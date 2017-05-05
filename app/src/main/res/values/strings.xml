@@ -34,4 +34,9 @@
     <string name="toast_stock_added_no_connectivity">Symbol %s added. Will refresh when network available.</string>
     <string name="toast_no_connectivity">Will refresh when network available.</string>
 
+    <!-- Stock Details -->
+    <string name="current_price">Current Price</string>
+    <string name="abs_change">Absolute Change</string>
+    <string name="perc_change" translatable="false">%</string>
+
 </resources>
