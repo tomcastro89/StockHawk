@@ -102,7 +102,6 @@ public final class QuoteSyncJob {
 
 
                 quoteCV.put(Contract.Quote.COLUMN_HISTORY, historyBuilder.toString());
-
                 quoteCVs.add(quoteCV);
 
             }

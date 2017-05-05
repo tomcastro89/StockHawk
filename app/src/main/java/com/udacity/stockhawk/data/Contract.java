@@ -13,6 +13,8 @@ public final class Contract {
     static final String PATH_QUOTE_WITH_SYMBOL = "quote/*";
     private static final Uri BASE_URI = Uri.parse("content://" + AUTHORITY);
 
+    public static final String _ID = "_id";
+
     private Contract() {
     }
 
