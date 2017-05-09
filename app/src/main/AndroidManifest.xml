@@ -38,7 +38,18 @@
             android:exported="true"
             android:permission="android.permission.BIND_JOB_SERVICE" />
 
-        <activity android:name=".ui.StockDetails"></activity>
+        <activity android:name=".ui.StockDetails" />
+
+        <receiver android:name=".widget.StockHawkWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.udacity.stockhawk.ACTION_DATA_UPDATED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/stock_hawk_widget_info" />
+        </receiver>
     </application>
 
 </manifest>

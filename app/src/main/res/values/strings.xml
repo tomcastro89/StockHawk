@@ -38,5 +38,8 @@
     <string name="current_price">Current Price</string>
     <string name="abs_change">Absolute Change</string>
     <string name="perc_change" translatable="false">%</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="no_stocks_selected_widget">No Stocks selected</string>
 
 </resources>

@@ -126,11 +126,11 @@ public class StockDetails extends AppCompatActivity implements LoaderManager.Loa
             createDiagram(symbol,prices,dates);
 
             if(Float.parseFloat(absChange) >=0){
-                mTextViewAbsChange.setBackgroundColor(Color.GREEN);
-                mTextViewPerChange.setBackgroundColor(Color.GREEN);
+                mTextViewAbsChange.setBackgroundColor(Color.rgb(51, 102, 0));
+                mTextViewPerChange.setBackgroundColor(Color.rgb(51, 102, 0));
             }else{
-                mTextViewAbsChange.setBackgroundColor(Color.RED);
-                mTextViewPerChange.setBackgroundColor(Color.RED);
+                mTextViewAbsChange.setBackgroundColor(Color.rgb(102,0,0));
+                mTextViewPerChange.setBackgroundColor(Color.rgb(102,0,0));
             }
             mTextViewPerChange.setText(percChange+"%");
             mTextViewAbsChange.setText(absChange);

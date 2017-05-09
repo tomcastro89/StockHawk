@@ -12,4 +12,5 @@
     <string name="toast_stock_added_no_connectivity">تمت إضافة الرمز٪ s. سيتمتحديث عندما الشبكة المتاحة.</string>
     <string name="abs_change">التغيير المطلق</string>
     <string name="current_price">السعر الحالي</string>
+    <string name="no_stocks_selected_widget">لم يتم تحديد أي أسهم</string>
 </resources>
