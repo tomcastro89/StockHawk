@@ -13,4 +13,6 @@
     <string name="abs_change">التغيير المطلق</string>
     <string name="current_price">السعر الحالي</string>
     <string name="no_stocks_selected_widget">لم يتم تحديد أي أسهم</string>
+    <string name="stock_added">وأضاف سهم</string>
+    <string name="stock_invalid">رمز غير صالح</string>
 </resources>

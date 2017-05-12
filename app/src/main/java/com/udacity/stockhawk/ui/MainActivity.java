@@ -138,10 +138,10 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
 
                     PrefUtils.addStock(context, symbol);
                     QuoteSyncJob.syncImmediately(context);
-                    Toast.makeText(context,"Stock added: "+symbol, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(context,getString(R.string.stock_added)+": "+symbol, Toast.LENGTH_SHORT).show();
 
                 }else{
-                    Toast.makeText(context,"Invalid Symbol: "+symbol, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(context,getString(R.string.stock_invalid)+": "+symbol, Toast.LENGTH_SHORT).show();
                 }
             }
         }).execute(symbol);
